@@ -33,7 +33,7 @@ Node js는 웹서버 기능을 가지고 있다. 제어판>네트워크 및 인�
 pm2 는 우리가 만든 process를 감시하고 꺼지면 다시 켜준다. 파일 수정을 감지해 다시 실행시켜준다.
 
 
-$pm2 start main.js
+$pm2 start main.js // 웹서버가 구동된다. 
 
 $pm2 monit
 
